@@ -1,0 +1,9 @@
+.features_container,
+.bestvpn_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bestvpn_container {
+}

@@ -1,0 +1,14 @@
+.header,
+.navigation-lists {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header {
+	padding: 30px 0;
+	background-color: #f5f6f8;
+}
+
+.navigation-lists {
+}

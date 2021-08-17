@@ -1,0 +1,10 @@
+.footer {
+	min-height: 160px;
+	background-color: #3a3d40;
+}
+
+.footer_anchors_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
