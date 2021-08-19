@@ -1,0 +1,19 @@
+.section_advantages,
+.section_access {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+
+@media (min-width: 720px) {
+	.section_advantages,
+	.section_access {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		text-align: start;
+	}
+}

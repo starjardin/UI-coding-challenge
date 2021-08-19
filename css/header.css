@@ -1,13 +1,18 @@
-.header,
+.header {
+	padding: 30px 0;
+	background-color: #f5f6f8;
+}
+
+.header_container,
 .navigation-lists {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.header {
-	padding: 30px 0;
-	background-color: #f5f6f8;
+.header_container {
+	max-width: 920px;
+	margin: auto;
 }
 
 .navigation-lists {

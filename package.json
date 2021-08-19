@@ -6,7 +6,8 @@
 	"scripts": {
 		"scss": "node-sass scss -o css",
 		"scss:watch": "npm run scss && node-sass scss -w -o css",
-		"start": "npm run scss:watch"
+		"start": "npm run scss:watch",
+		"parcel": "parcel index.html"
 	},
 	"repository": {
 		"type": "git",
