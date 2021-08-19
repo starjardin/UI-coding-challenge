@@ -1,10 +1,37 @@
 .footer {
-	min-height: 160px;
+	padding: 80px 0;
 	background-color: #3a3d40;
+}
+
+.footer li {
+	list-style: none;
 }
 
 .footer_anchors_container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.footer li,
+li > a {
+	letter-spacing: 2;
+	color: #dddddd;
+	text-transform: uppercase;
+}
+
+.social_link {
+	visibility: hidden;
+	width: 1rem;
+	height: 1rem;
+}
+
+.facebook {
+	background-image: url('../assets/social_facebook.svg');
+}
+.twitter {
+	background-image: url('../assets/social_twitter.svg');
+}
+.linkedin {
+	background-image: url('../assets/social_linkedin.svg');
 }

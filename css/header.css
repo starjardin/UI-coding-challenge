@@ -3,6 +3,10 @@
 	background-color: #f5f6f8;
 }
 
+.header li {
+	list-style: none;
+}
+
 .header_container,
 .navigation-lists {
 	display: flex;
@@ -10,10 +14,15 @@
 	justify-content: space-between;
 }
 
-.header_container {
-	max-width: 920px;
-	margin: auto;
+.navigation-lists {
 }
 
-.navigation-lists {
+.try-free {
+	display: none;
+}
+
+@media (min-width: 960px) {
+	.try-free {
+		display: block;
+	}
 }

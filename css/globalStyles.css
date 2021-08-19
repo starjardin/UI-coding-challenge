@@ -3,13 +3,11 @@ body {
 	margin: 0;
 }
 
-main {
+main,
+.footer_anchors_container,
+.header_container {
 	max-width: 960px;
 	margin: auto;
-}
-
-li {
-	list-style: none;
 }
 
 ul {
@@ -24,6 +22,10 @@ a {
 
 section {
 	padding: 70 0;
+}
+
+h2 {
+	font-size: 30px;
 }
 
 @media (min-width: 720px) {
